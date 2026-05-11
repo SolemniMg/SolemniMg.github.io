@@ -1,6 +1,34 @@
 // ========== FIGURES PER A CADA SENTIMENT ==========
 // Posa aquÃ­ TOT el codi de cada funciÃ³ tal com el tens al teu script original.
+  function bocatrist(){
+    let h=sin(frameCount*0.1)*10;
+  beginShape();//bocatrista
 
+vertex(334.5, 412.609375+h/4);
+vertex(342.5, 397.609375+h/4);
+vertex(356.5, 380.609375+h/4);
+vertex(374.5, 366.609375+h/3);
+vertex(392.5, 352.609375+h/3);
+vertex(405.5, 342.609375+h/2);
+vertex(417.5, 331.609375+h/2);
+vertex(438.5, 316.609375+h);
+vertex(457.5, 305.609375+h);
+vertex(470.5, 301.609375+h);
+endShape();
+  }
+function llagrima(){ 
+let h=sin(frameCount*0.05)*9;
+beginShape();//llagrima
+vertex(414.5, 241.609375+h);
+vertex(408.5, 249.609375+h);
+vertex(405.5, 260.609375+h);
+vertex(411.5, 268.609375+h);
+vertex(421.5, 270.609375+h);
+vertex(428.5, 264.609375+h);
+vertex(427.5, 252.609375+h);
+vertex(421.5, 242.609375+h);
+vertex(418.5, 236.609375+h);
+endShape();}
 function contornexterior(){
   fill (255,255,255);
   beginShape();//Contorn exterior
