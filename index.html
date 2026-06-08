@@ -119,7 +119,24 @@
       </div>
     </div>
   </nav>
-
+ <!-- Contingut -->
+  <main class="container py-5">
+    <h1 class="display-5 fw-bold mb-4">Benvinguts a la web de la Solemni</h1>
+    <p class="lead">Aquesta web posarem materials de programació artística. Es una optativa de 2n ESO de <a><a href="https://agora.xtec.cat/ies-pompeu-fabra-martorell/">l'institut Pompeu Fabra</a> on utilitzarem <a href="https://p5js.org/es/">p5.js</a> per dibuixar i <a href="https://ml5js.org/">ml5.js</a> per identificar sentiments.</p>
+ <p class="lead">El primer codi que farem serà una cara dibuixada amb p5js. 
+   <p class="lead">La forma de la cara serà una el·lipse, els ulls també,
+   la boca serà un arc.
+  </ul>
+ <li>La primera cara es una cara bàsica, només hem fet la forma i els colors de la cara, els ulls i la boca.</li>
+    <li>A la segona cara farem que la boca es mogui amb el volum del micrófon, de forma que l'alçada de la boca depen del volum.</li>
+    <li>A la tercera cara, també ho farem amb la funció sinus que farà que la boca tingui moviment repetitiu. També podriem fer canvis de colors (ulls, cap, boca).</li>
+    <li>A la quarta cara, farem que la cara segueixi el ratolí amb mouseX i mouseY.</li>
+    <li>A la cinquena hem fet que la cara canvii aleatoriament amb la funció random, tant colors com formes, i que canviï amb la funció noise que es un tipus de soroll Perlin (aleatori sense grans canvis)</li>
+  </p>
+  <p class="lead"> El segon projecte consisteix en aplicar tots els coneixements anteriors del projecte cares per dibuixar un personatge de còmic o internet i que canviï de forma i color depenent de la expressió de la meva cara. 
+    Jo he triat a Snoopy del món dels còmics. El primer que he de fer es anar a la pàgina del professor <a href="https://drfperez.github.io/"> </a>, on he de pujar una imatge que tingui una amplada de uns 800 pixels d'ample. He de clicar al voltant del meu personatge i de cadasuna de les part. La pàgina web retorna amb un codi que sempre comença amb "beginShape"
+ que vol dir que comença formes i dintre te molts vertexs. Acaba amb el codi "endShape(CLOSE);)". Davant de cada beginShape hem escrit un "fill" que omple de color i per això hem utilitzat <a href="https://drfperez.github.io/"> </a> la pàgina del professor</a> que indica el color d'aquella forma i també indica les coordenades. Les coordenades serveixen per fer càlculs i posar-los al nostre codi
+ per exemple calcular el tamany dels ulls. El codi el convertirem en modular que cada "beginShape" el convertirem en una funció que cridarem amb el seu nom dintre del function draw. Per últim afegirem la detecció dels set sentiments de la cara i haurem de dibuixar les set parts de la cara que canviïn. Podem animar cadascuna amb la funció sinus. </p>
    
 
  
